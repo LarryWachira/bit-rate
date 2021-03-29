@@ -1,0 +1,63 @@
+
+header .row {
+    align-items: center;
+    padding: 5%;
+}
+
+.logo {
+    padding: 0;
+    text-align: right;
+}
+
+.logo img {
+    max-width: 50px;
+}
+
+.brand-name span {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+section.container:first-of-type {
+    padding: 4% 5%;
+}
+
+.price-info div {
+    margin-top: 1.35em;
+    margin-bottom: 1.35em;
+}
+
+.price-info p.price {
+    font-size: 2rem;
+    color: #00b862;
+}
+
+.loading-price-spinner {
+    width: 2rem;
+    height: 2rem;
+}
+
+.stats {
+    padding-top: 2em;
+}
+
+.stats p:first-child {
+    margin-bottom: 0.2em;
+}
+
+.stats span {
+    color: #2196f3;
+}
+
+.loading-spinner {
+    padding: 10%;
+}
+
+.loading-chart-spinner {
+    width: 5rem;
+    height: 5rem;
+}
+
+.error-message {
+    margin-top: 35%;
+}
