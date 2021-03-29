@@ -19,13 +19,13 @@ describe('AppComponent', () => {
   it(`should have as title 'bit-rate'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('bit-rate');
+    expect(app.loading).toEqual(true);
   });
 
-  it('should render title', () => {
+  it('should render the last bitcoin price', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('bit-rate app is running!');
+    expect(compiled.querySelector('.price-info h4').textContent).toContain('The current Bitcoin price is:');
   });
 });
